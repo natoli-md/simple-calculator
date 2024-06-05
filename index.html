@@ -61,6 +61,49 @@
             background-color: rgb(41, 24, 24);
             color: white;
         }
+        @media only screen and (max-width: 720px) {
+  .main {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .screen {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .display {
+    font-size: 2rem;
+  }
+
+  .elements {
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    padding: 5px;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  /* ... previous styles ... */
+
+  button {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .main {
+    max-height: 90%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
     </style>
 </head>
 <body>
